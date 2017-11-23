@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>2 Angular apps</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<h2>Angular app 1</h2>
+<app-1></app-1><br>
+<h2>Angular app 2</h2>
+<app-2></app-2><br>
+<h2>React app</h2>
+<div id="root"></div>
+</body>
+<script type="text/javascript" src="app2/node_modules/pubsub-js/src/pubsub.js"></script>
+<script type="text/javascript" src="app2/dist/inline.bundle.js"></script>
+<script type="text/javascript" src="app2/dist/polyfills.bundle.js"></script>
+<script type="text/javascript" src="app2/dist/vendor.bundle.js"></script>
+<script type="text/javascript" src="app2/dist/main.bundle.js"></script>
+<script type="text/javascript" src="app1/dist/inline.bundle.js"></script>
+<script type="text/javascript" src="app1/dist/vendor.bundle.js"></script>
+<script type="text/javascript" src="app1/dist/main.bundle.js"></script>
+<script type="text/javascript" src="app3/build/static/js/main.js"></script>
+
+</html>

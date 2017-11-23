@@ -1,0 +1,1 @@
+{"__symbolic":"module","version":3,"metadata":{"OPEN_NAVBAR":"[Layout] Open Navbar","CLOSE_NAVBAR":"[Layout] Close Navbar","NAVBAR_QUEUE":"navbar.dispatch"},"origins":{"OPEN_NAVBAR":"./public_api","CLOSE_NAVBAR":"./public_api","NAVBAR_QUEUE":"./public_api"},"importAs":"app1"}

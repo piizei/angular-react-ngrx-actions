@@ -1,0 +1,17 @@
+{
+  "name": "angular-react-ngrx-actions",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "cd app1 && npm install && cd .. && cd app2 && npm install && cd .. && cd app3 && npm install",
+    "build:app1": "cd app1 && npm run build && npm run fake-npm-publish",
+    "build:app2": "cd app2 && npm run build",
+    "build:app3": "cd app3 && npm run build",
+    "build": "npm run build:app1 && npm run build:app2 && npm run build:app3",
+    "fake-npm-publish": "cd app1 && npm run fake-npm-publish",
+    "start": "http-server"
+  },
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
